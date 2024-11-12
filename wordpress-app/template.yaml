@@ -50,7 +50,7 @@ spec:
       action: fetch:template
       input:
         url: ./skeleton
-        copyWithoutTemplating: ['**/*.css', '**/*.css.map', .github/workflows/*]
+        copyWithoutTemplating: ['**/**/**/*.css', '**/**/**/*.css.map', .github/workflows/*]
         values:
           component_id: ${{ parameters.component_id }}
           description: ${{ parameters.description }}
